@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+</head>
+<body>
+    <section class="container">
+        <div class="box">
+            <div class="section">
+                <p>9:30 AM</p>
+                <div>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAdJJREFUSEvtlbFLVXEUxz/fSshcWgIFRUMR2owGSYgCazFbGjT/gDYXCRsCQdIcbW9oSwgKQcpBG0RBUFpEJwvCENS5KGnoyJHz5PJ87913H+ri+8Gd7vd3P+d8z/dwxRkfnTGPKvDEHa9aek4sNbMa4E48TUA9HK7UHvATWAYWJP1Ls6RkaMzsOjAC9AF1KR/7C3wAXkr6XkxbEGhmtcAk8BS4GJcNWAe+AduAd9MCtAIdwIXQ/QfeAkOSfueDjwHNrAH4DNwM8Q7wDPgk6Vehys3sCtADvAYaQ7MB9EraSt4pBHwBvAqRdzki6U/abPy9mV0GRoHnMeNJSV7s0Slm6ZDbJ+lLTmlmD4CHQBfQBlwCNoEVYAaYk+S2O9gDdk/SWKql+QIzuwu8AdpTunT4oKT5Urq0lHpXs9GNf8etXYvw7AO3IjC5BHtg+iR9zJTShI1XgSXgBjAOTOTvWuzocMzO09slabciYMzjGtAs6WuikNvetSQv5vCYmRe1L+lHxZYWWYEpYCDe+ao8KifBOU2m31OkbzEP8FjSdLnQrMBu4GhVAvJE0vtTAcasPPb3A7AqqbNcmOsydZgISH+E5l0WWMXArJCkvqIOq8BSDhwAblmFHZqCkQkAAAAASUVORK5CYII="/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAASRJREFUSEvtlj8rhlEYh69rs8lmkUgZZSAssvgKPoCFicEipSxSBpFJ7+hDWEwi+VNmYZCUskhZf3rqeUvK8Op5XqX3TGc55zrnun9139LmZZt5dIC/Np5kFOgGntS75kW1KU1yBkwCe+pSB9hS7ZLMAYvAi1rsSXIKTAG76nKlSpOsANtlQPpKYH01rBWYpAuYKBVdq+9fgI9qf6VKkwwC9yVwXL2s+4f/DJikAQwBh2ojyQDwUCodU68qrWGSG2AE2FJXa69hrcAkRaQLZR/qRRnv5g831bVKlSZZBzaAW3X4G7B6pR1g5Sn9C6XTwAzwqu6XoVkAeoET9ThJD9AcGQ7U5yRF35sF3tSd8tw8ULSqc/Wo0n7YSreubYj66RFtB34CZQVZLLPaadwAAAAASUVORK5CYII="/>
+                   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAANhJREFUSEvtlTEKwjAUhr//CDp4AhfFKzgp6KQg4qoX8ATtJOhdHAQdFeplXHVzf9KhoDadknZpMya89yVf8l5ExUMV82iAwY3XVKmZxcAa6Ho6fQMJsJX0SHPllJpZC3i51jzgkaRDEXAOnD2Su0KvkqZFwAVwCgy8Sxr9AM2sD3SAIbALDEwkjf+BR2AVGJSlc56wAfrYdipdAgOgV8Jd5h9Ntn0zq6YsvoAz4OLjzxF7kzQpKvw28Azc2mJJeycwnTSzCNhU0rwDq8ylq+kHXKbWRmlwux9/90od7P55pAAAAABJRU5ErkJggg=="/>
+                </div>
+            </div>
+            <h1>Tempreture Converter</h1>
+            <div class="content">
+                <div class="degree">
+                    <p>Degrees</p>
+                    <input type="text" class="input1" pattern="[0-9]*">
+                </div>
+                <div class="type">
+                    <P>Type</P>
+                    <select id="dropdown">
+                        <option value="fahrenheit" color="red">Fahrenheit</option>
+                        <option value="celcius">Celcius</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result">
+                <p>Result</p>
+                <input type="text" class="input3">
+            </div>
+            <div class="button">
+                <button class="btn">convert</button>
+            </div>
+        </div>
+    </section>  
+    <script src="app.js"></script>
+</body>
+</html>
